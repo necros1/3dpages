@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
                 <!-- Product actions -->
                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://wa.me/56951549184?text=Hola, Me gustaria un Llavero del colegio Dunalastair">Solicita vía Whatsapp</a></div>
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://wa.me/56951549184?text=Hola, Me gustaria un Llavero del colegio ${img}">Solicita vía Whatsapp</a></div>
                 </div>
             </div>
         `;
