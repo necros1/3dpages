@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         card.innerHTML = `
             <div class="card h-100">
                 <!-- Product image -->
-                <img class="card-img-top" src="${imgFolder + img}" alt="Producto ${index + 1}" />
+                <img class="card-img-top" src="${imgFolder + img}" alt="Llavero ${index + 1}" />
                 <!-- Product details -->
                 <div class="card-body p-4">
                     <div class="text-center">
