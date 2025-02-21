@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const imgFolder = "assets/img/";
     const images = [ 
         { name: "Llavero Dunalastair", img: "dunalastair.jpeg", price:"$2.000" },
-        { name: "Llavero Lincoln College", img: "lincoln_college.jpeg", price:"$2.000" },
+        { name: "Llavero Lincoln College", img: "lincoln_college.png", price:"$2.000" },
         { name: "Llavero Palmares", img: "palmares.jpeg", price:"$2.000" },
         { name: "Llavero Pumahue", img: "pumahue.jpeg", price:"$2.000" },
         { name: "Llavero Weston Academy", img: "weston_academy.jpeg", price:"$2.000" }
