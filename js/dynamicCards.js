@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <!-- Product details -->
                 <div class="card-body p-4">
                     <div class="text-center">
-                        <h5 class="fw-bolder">Producto ${index + 1}</h5>
+                        <h5 class="fw-bolder">Llavero ${img}</h5>
                         <div class="d-flex justify-content-center small text-warning mb-2">
                             <div class="bi-star-fill"></div>
                             <div class="bi-star-fill"></div>
