@@ -1,13 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     const imgFolder = "assets/img/";
-    
-    // Lista de imágenes con nombres personalizados
     const images = [ 
-        { name: "Llavero Dunalastair", img: "dunalastair.jpeg" },
-        { name: "Llavero Lincoln College", img: "lincoln_college.jpeg" },
-        { name: "Llavero Palmares", img: "palmares.jpeg" },
-        { name: "Llavero Pumahue", img: "pumahue.jpeg" },
-        { name: "Llavero Weston Academy", img: "weston_academy.jpeg" }
+        { name: "Llavero Dunalastair", img: "dunalastair.jpeg", price:"$2.000" },
+        { name: "Llavero Lincoln College", img: "lincoln_college.jpeg", price:"$2.000" },
+        { name: "Llavero Palmares", img: "palmares.jpeg", price:"$2.000" },
+        { name: "Llavero Pumahue", img: "pumahue.jpeg", price:"$2.000" },
+        { name: "Llavero Weston Academy", img: "weston_academy.jpeg", price:"$2.000" }
     ];
 
     const container = document.getElementById("productContainer");
@@ -18,9 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         card.innerHTML = `
             <div class="card h-100">
-                <!-- Product image -->
                 <img class="card-img-top" src="${imgFolder + item.img}" alt="${item.name}" />
-                <!-- Product details -->
                 <div class="card-body p-4">
                     <div class="text-center">
                         <h5 class="fw-bolder">${item.name}</h5>
@@ -31,11 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="bi-star-fill"></div>
                             <div class="bi-star-fill"></div>
                         </div>
-                        <!-- Product price -->
-                        $2.000
+                        ${item.price}
                     </div>
                 </div>
-                <!-- Product actions -->
                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                     <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="https://wa.me/56951549184?text=Hola, Me gustaria un ${item.name}">Solicita vía Whatsapp</a></div>
                 </div>
