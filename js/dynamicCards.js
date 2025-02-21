@@ -2,8 +2,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const imgFolder = "assets/img/";
     const images = [
         "dunalastair.jpeg",
-        "producto2.jpg",
-        "producto3.png"
+        "lincoln_college.png",
+        "palmares.jpeg",
+        "pumahue.jpeg",
+        "weston_academy.jpeg",
     ]; // Esta lista se puede obtener dinámicamente desde un backend
 
     const container = document.getElementById("productContainer");
