@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Llavero Lincoln College", img: "lincoln_college.png", price:"$2.000" },
         { name: "Llavero Palmares", img: "palmares.jpeg", price:"$2.000" },
         { name: "Llavero Pumahue", img: "pumahue.jpeg", price:"$2.000" },
-        { name: "Llavero Weston Academy", img: "weston_academy.jpeg", price:"$2.000" }
+        { name: "Llavero Weston Academy", img: "weston_academy.jpeg", price:"$2.000" },
+        { name: "Iron Man", img: "iron_man.png", price:"$65.000" }
     ];
 
     const container = document.getElementById("productContainer");
