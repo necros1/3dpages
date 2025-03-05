@@ -10824,5 +10824,13 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+
+  .product-card img {
+    width: 100%;          /* Ocupa todo el ancho del contenedor */
+    height: 200px;        /* Altura fija para uniformidad */
+    object-fit: cover;    /* Ajusta la imagen sin deformarla */
+    border-radius: 10px;  /* Bordes redondeados opcionales */
+}
+
   
 }
