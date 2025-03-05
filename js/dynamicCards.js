@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
             stockAvailability: true, featured: true, discount: null
         },
         { 
-            id: 7, name: "Abecedario Infantil", img: "abecedario.jpeg", price: 65000,
-            formattedPrice: "$65.000", category: "Colegio", description: "Ayuda a tu hijo/a con este lindo Abecedario.",
+            id: 7, name: "Abecedario Infantil", img: "abecedario.jpeg", price: 12000,
+            formattedPrice: "$12.000", category: "Colegio", description: "Ayuda a tu hijo/a con este lindo Abecedario.",
             stockAvailability: true, featured: true, discount: null
         },
         { 
