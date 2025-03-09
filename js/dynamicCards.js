@@ -53,6 +53,11 @@ document.addEventListener("DOMContentLoaded", function () {
             id: 10, name: "Perrito Completero", img: "perro_completero.jpeg", price: 3500,
             formattedPrice: "$3.500", category: "Hogar", description: "Hermoso Perrito Completero",
             stockAvailability: true, featured: true, discount: null
+        },
+        { 
+            id: 11, name: "Clip para cerrar bolsas", img: "mc_donald_clip.webp", price: 12000,
+            formattedPrice: "$12.000", category: "Hogar", description: "Si no sabes como cerrar tus bolsas de papas fritas una vez abiertas, esta es una excelente opcion para ti. Incluye 6 clips diseño de papas fritas y contenedor para su guardado",
+            stockAvailability: true, featured: true, discount: null
         }
 
     ];
