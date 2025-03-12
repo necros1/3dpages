@@ -64,6 +64,16 @@ document.addEventListener("DOMContentLoaded", function () {
             formattedPrice: "$2.000", category: "Colegio", description: "Llavero personalizado con el escudo de la Escuela Santa Teresa de Avila.",
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
+        { 
+            id: 13, name: "Placa identificación de Gatitos. ", img: "placa_gatitos.jpeg", price: 1000,
+            formattedPrice: "$1.000", category: "mascotas", description: "Llavero personalizado con el nombre de tu gatito",
+            stockAvailability: true, rating: 5, featured: false, discount: null
+        },
+        { 
+            id: 14, name: "Placa identificación de Perritos. ", img: "placa_perritos.jpeg", price: 1000,
+            formattedPrice: "$1.000", category: "mascotas", description: "Llavero personalizado con el nombre de tu perrito",
+            stockAvailability: true, rating: 5, featured: false, discount: null
+        },
 
     ];
 
