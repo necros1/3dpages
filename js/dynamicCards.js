@@ -94,9 +94,15 @@ document.addEventListener("DOMContentLoaded", function () {
             formattedPrice: "$2.500", category: "card_id", description: "Entretenido porta credencial del famoso personaje de disney Stitch",
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
+        { 
+            id: 19, name: "Porta credencial Pokémon", img: "pokemon_card_id.png", price: 2500,
+            formattedPrice: "$2.500", category: "card_id", description: "Entretenido porta credencial de la famosa seria de Pokémon",
+            stockAvailability: true, rating: 5, featured: false, discount: null
+        },
 
     ];
 
+    
     
 
     const container = document.getElementById("productContainer");
