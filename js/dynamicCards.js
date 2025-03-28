@@ -74,6 +74,21 @@ document.addEventListener("DOMContentLoaded", function () {
             formattedPrice: "$1.000", category: "mascotas", description: "Llavero personalizado con el nombre de tu perrito",
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
+        { 
+            id: 15, name: "Porta credencial Minecraft ", img: "minecraft_card_id.webp", price: 2500,
+            formattedPrice: "$2.500", category: "card_id", description: "Entretenido porta credencial del famoso juego Minecraft",
+            stockAvailability: true, rating: 5, featured: false, discount: null
+        },
+        { 
+            id: 16, name: "Porta credencial Brawl Stars ", img: "brawl_stars_card_id.png", price: 2500,
+            formattedPrice: "$2.500", category: "card_id", description: "Entretenido porta credencial del famoso juego Brawl Stars",
+            stockAvailability: true, rating: 5, featured: false, discount: null
+        },
+        { 
+            id: 17, name: "Tabla de multiplicar", img: "tabla_multiplicar.webp", price: 6000,
+            formattedPrice: "$6.000", category: "Colegio", description: "si estas comenzando con las tablas de multiplicar esta es ideal para ayudar en el proceso.",
+            stockAvailability: true, rating: 5, featured: false, discount: null
+        },
 
     ];
 
