@@ -89,6 +89,11 @@ document.addEventListener("DOMContentLoaded", function () {
             formattedPrice: "$6.000", category: "Colegio", description: "si estas comenzando con las tablas de multiplicar esta es ideal para ayudar en el proceso.",
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
+        { 
+            id: 18, name: "Porta credencial Stitch", img: "stitch.png", price: 2500,
+            formattedPrice: "$2.500", category: "card_id", description: "Entretenido porta credencial del famoso personaje de disney Stitch",
+            stockAvailability: true, rating: 5, featured: false, discount: null
+        },
 
     ];
 
