@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
         { 
-            id: 13, name: "Placa identificación de Gatitos. ", img: "placa_gatitos", price: 1000,
+            id: 13, name: "Placa identificación de Gatitos. ", img: "placa_gatitos.png", price: 1000,
             formattedPrice: "$1.000", category: "mascotas", description: "Llavero personalizado con el nombre de tu gatito",
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
