@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
             price: 4500,
             formattedPrice: "$4.500",
             category: "Hogar",
-            description: "📦 Capacidad para 30 huevos\n✅ Diseño apilable y compacto\n✅ Ideal para el refrigerador\n✅ Práctico, limpio y duradero.",
+            description: "📦 Capacidad de cada contedor para 10 huevos\n✅ Diseño apilable y compacto\n✅ Ideal para el refrigerador\n✅ Práctico, limpio y duradero.",
             stockAvailability: true,
             featured: true,
             discount: null
