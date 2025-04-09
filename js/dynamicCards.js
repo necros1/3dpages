@@ -65,12 +65,12 @@ document.addEventListener("DOMContentLoaded", function () {
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
         { 
-            id: 13, name: "Placa identificación de Gatitos. ", img: "placa_gatitos.jpeg", price: 1000,
+            id: 13, name: "Placa identificación de Gatitos. ", img: "placa_gatitos", price: 1000,
             formattedPrice: "$1.000", category: "mascotas", description: "Llavero personalizado con el nombre de tu gatito",
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
         { 
-            id: 14, name: "Placa identificación de Perritos. ", img: "placa_perritos.jpeg", price: 1000,
+            id: 14, name: "Placa identificación de Perritos. ", img: "placa_perritos.png", price: 1000,
             formattedPrice: "$1.000", category: "mascotas", description: "Llavero personalizado con el nombre de tu perrito",
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
@@ -99,6 +99,72 @@ document.addEventListener("DOMContentLoaded", function () {
             formattedPrice: "$2.500", category: "card_id", description: "Entretenido porta credencial de la famosa seria de Pokémon",
             stockAvailability: true, rating: 5, featured: false, discount: null
         },
+        { 
+            id: 20, name: "Porta credencial Minions", img: "card_id_minions.png", price: 2500,
+            formattedPrice: "$2.500", category: "card_id", description: "Entretenido porta credencial de los queridos personajes de los minions",
+            stockAvailability: true, rating: 5, featured: false, discount: null
+        },
+        { 
+            id: 21,
+            name: "Contenedor Apilable para Huevos – ¡Ahorra espacio y gana orden!",
+            img: "contenedor_huevos_apilable.webp",
+            price: 4500,
+            formattedPrice: "$4.500",
+            category: "Hogar",
+            description: "📦 Capacidad para 30 huevos\n✅ Diseño apilable y compacto\n✅ Ideal para el refrigerador\n✅ Práctico, limpio y duradero.",
+            stockAvailability: true,
+            featured: true,
+            discount: null
+        },
+        {
+            id: 22,
+            name: "Huevo Conejito Decorativo – Sorpresas de Pascua",
+            img: "conejito.webp",
+            price: 2000,
+            formattedPrice: "$2.000",
+            category: "pascuas",
+            description: "🎁 ¡Haz mágica esta Pascua!\nUn adorable huevo con orejitas de conejo, ideal para esconder dulces, monedas o pequeñas sorpresas. Perfecto para búsquedas de Pascua, decorar tu hogar o sorprender a alguien especial.\n\n🐣 Características destacadas:\n✅ Diseño divertido y colorido\n✅ Se abre en dos partes para esconder tesoros\n✅ Ideal para niños y decoraciones temáticas\n✅ Reutilizable año tras año\n✅ Tamaño compacto y fácil de manipular\n\n💡 ¡Combínalo con más colores para una búsqueda inolvidable!",
+            stockAvailability: true,
+            featured: true,
+            discount: null
+          },
+          {
+            id: 23,
+            name: "Set de 3 Conejitos Decorativos – Estilo y ternura en Pascua",
+            img: "conejito_2.webp",
+            price: 1000,
+            formattedPrice: "$1.000",
+            category: "pascuas",
+            description: "🐰 Dale un toque adorable a tus espacios con este set de conejitos decorativos en tonos pastel. Inspirados en la dulzura de la Pascua, su diseño en espiral agrega un toque elegante y moderno.\n\n🎨 Colores suaves y combinables\n🌀 Diseño espiral único y llamativo\n🌸 Perfectos para centros de mesa, repisas o regalos\n📦 Incluye múltiples tamaños para mayor versatilidad\n\nDecora con encanto y estilo, ¡haz que tu hogar brille esta temporada!",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
+          {
+            id: 24,
+            name: "Easter Kinder Bunny – Guarda tu Kinder Sorpresa con estilo",
+            img: "conejito_4.webp",
+            price: 1500,
+            formattedPrice: "$1.500",
+            category: "pascuas",
+            description: "🥚🐰 ¡Diversión asegurada esta Pascua! Nuestro Easter Kinder Bunny es el complemento perfecto para esconder un Kinder Sorpresa y sorprender a los más pequeños.\n\n✅ Diseño encantador en forma de conejito\n✅ Ideal para búsquedas de huevos o regalos personalizados\n✅ Reutilizable y perfecto para decorar\n✅ Tamaño justo para huevos de chocolate tipo Kinder\n\n¡Haz que cada descubrimiento sea aún más especial!",
+            stockAvailability: true,
+            featured: true,
+            discount: null
+          },
+          {
+            id: 25,
+            name: "Easter Kinder Bunny 2– Guarda tu Kinder Sorpresa con estilo",
+            img: "conejito_3.webp",
+            price: 2000,
+            formattedPrice: "$2.000",
+            category: "pascuas",
+            description: "🥚🐰 ¡Diversión asegurada esta Pascua! Nuestro Easter Kinder Bunny es el complemento perfecto para esconder un Kinder Sorpresa y sorprender a los más pequeños.\n\n✅ Diseño encantador en forma de conejito\n✅ Ideal para búsquedas de huevos o regalos personalizados\n✅ Reutilizable y perfecto para decorar\n✅ Tamaño justo para huevos de chocolate tipo Kinder\n\n¡Haz que cada descubrimiento sea aún más especial!",
+            stockAvailability: true,
+            featured: true,
+            discount: null
+          }
+          
 
     ];
 
@@ -141,6 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             noResults.classList.add('d-none');
             productsToRender.forEach(product => {
+                const formattedDescription = product.description.replace(/\n/g, '<br>');
                 const productCard = document.createElement("div");
                 productCard.classList.add("col-lg-4", "col-md-6", "mb-4");
                 productCard.innerHTML = `
@@ -148,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <img src="${imgFolder}${product.img}" class="card-img-top product-image" alt="${product.name}">
                         <div class="card-body">
                             <h5 class="card-title">${product.name}</h5>
-                            <p class="text-muted small">${product.description}</p>
+                            <p class="text-muted small">${formattedDescription}</p>
                             <p class="card-text"><strong>Precio: ${product.formattedPrice}</strong></p>
                         </div>
                     </div>
