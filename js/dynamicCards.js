@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
             price: 1500,
             formattedPrice: "$1.500",
             category: "pascuas",
-            description: "🥚🐰 ¡Diversión asegurada esta Pascua! Nuestro Easter Kinder Bunny es el complemento perfecto para esconder un Kinder Sorpresa y sorprender a los más pequeños.\n\n✅ Diseño encantador en forma de conejito\n✅ Ideal para búsquedas de huevos o regalos personalizados\n✅ Reutilizable y perfecto para decorar\n✅ Tamaño justo para huevos de chocolate tipo Kinder\n\n¡Haz que cada descubrimiento sea aún más especial!",
+            description: "🐰 Diseño encantador en forma de conejito\n✅ Ideal para búsquedas de huevos o regalos personalizados\n✅ Reutilizable y perfecto para decorar\n🥚 Tamaño justo para huevos de chocolate tipo Kinder\n\n¡Haz que cada descubrimiento sea aún más especial!",
             stockAvailability: true,
             featured: true,
             discount: null
@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
             price: 2000,
             formattedPrice: "$2.000",
             category: "pascuas",
-            description: "🥚🐰 ¡Diversión asegurada esta Pascua! Nuestro Easter Kinder Bunny es el complemento perfecto para esconder un Kinder Sorpresa y sorprender a los más pequeños.\n\n✅ Diseño encantador en forma de conejito\n✅ Ideal para búsquedas de huevos o regalos personalizados\n✅ Reutilizable y perfecto para decorar\n✅ Tamaño justo para huevos de chocolate tipo Kinder\n\n¡Haz que cada descubrimiento sea aún más especial!",
+            description: "🐰 Diseño encantador en forma de conejito\n✅ Ideal para búsquedas de huevos o regalos personalizados\n✅ Reutilizable y perfecto para decorar\n🥚 Tamaño justo para huevos de chocolate tipo Kinder\n\n¡Haz que cada descubrimiento sea aún más especial!",
             stockAvailability: true,
             featured: true,
             discount: null
