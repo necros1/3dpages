@@ -163,9 +163,55 @@ document.addEventListener("DOMContentLoaded", function () {
             stockAvailability: true,
             featured: true,
             discount: null
+          },
+          {
+            id: 26,
+            name: "Huevito Naruto – ¡El ninja más kawaii de la Pascua!",
+            img: "huevito_naruto.webp",
+            price: 3900,
+            formattedPrice: "$3.900",
+            category: "pascuas",
+            description: "🍥🥚 ✅ Diseño inspirado en Naruto Uzumaki\n✅ Ideal para esconder dulces, sorpresas o regalos\n✅ ¡Perfecto para decorar o regalar a fans del anime!\n✅ Reutilizable y resistente\n\n¡Conviértete en el Hokage de la búsqueda de huevos esta Pascua!",
+            stockAvailability: true,
+            featured: true,
+            discount: null
+          },
+          {
+            id: 27,
+            name: "Huevito Minecraft – El tesoro pixelado de Pascua",
+            img: "huevito_minecraft.webp",
+            price: 3500,
+            formattedPrice: "$3.500",
+            category: "pascuas",
+            description: "🟩⛏️ ¡Este huevito es un verdadero bloque de sorpresas! Inspirado en el mundo de Minecraft, es ideal para esconder dulces o regalar a los fans del juego.\n\n✅ Diseño cúbico al estilo pixel art\n✅ Perfecto para esconder huevos sorpresa o pequeños regalos\n✅ Impreso en 3D con detalles en cada bloque\n✅ ¡Un must-have para los gamers esta Pascua!\n\n¡Haz que tu búsqueda de huevos sea épica con este huevito de Minecraft!",
+            stockAvailability: true,
+            featured: true,
+            discount: null
+          },
+          {
+            id: 28,
+            name: "Huevitos Yoshi – ¡Directo del Reino Champiñón!",
+            img: "Yoshi.webp",
+            price: 3500,
+            formattedPrice: "$3.500",
+            category: "pascuas",
+            description: "✅ Disponible en varios colores: verde, rojo, púrpura y más\n✅ Impresión 3D de alta calidad con acabado suave\n✅ Ideal para regalos, decoraciones o esconder sorpresas\n✅ ¡Un must para fans de Mario y Yoshi!\n\n¡Atrévete a coleccionarlos todos y haz de tu Pascua una aventura pixelada!",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
+          {
+            id: 29,
+            name: "Conejito Kinder Sorpresa – Soporte 3D para tu huevito",
+            img: "conejito_kinder_sorpresa.webp",
+            price: 1500,
+            formattedPrice: "$1.500",
+            category: "pascuas",
+            description: "✅ Compatible con huevos tipo Kinder Sorpresa\n✅ Diseño en 3D tierno y funcional\n✅ Ideal para centros de mesa o regalos personalizados\n✅ ¡Una combinación perfecta entre ternura y chocolate!\n\n¡Llená tu Pascua de dulzura y estilo con este conejito!",
+            stockAvailability: true,
+            featured: false,
+            discount: null
           }
-          
-
     ];
 
     
