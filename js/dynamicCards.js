@@ -211,9 +211,82 @@ document.addEventListener("DOMContentLoaded", function () {
             stockAvailability: true,
             featured: false,
             discount: null
-          }
+          },
+          {
+            id: 30,
+            name: "Decoración Happy Easter – Ornamento Pascua",
+            img: "happy_easter_decoration.webp",
+            price: 2000,
+            formattedPrice: "$2.000",
+            category: "pascuas",
+            description: "✨🪺 Esta decoración 'Happy Easter' es ideal para agregar un toque elegante y festivo a tus celebraciones de Pascua. Con un diseño limpio y orejitas de conejo asomando por detrás, ¡es imposible no amarla!\n\n📏 Medidas: 10.7 cm x 5.2 cm x 1.25 cm\n✅ Perfecta para centros de mesa o repisas\n✅ Impresa en 3D con materiales de alta calidad\n✅ Estilo minimalista con detalles encantadores\n\n¡Decorá tu hogar con espíritu pascuero y mucho estilo!",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
+          {
+            id: 31,
+            name: "Topper Cake Happy Easter",
+            img: "toper_cake_1.webp",
+            price: 1000,
+            formattedPrice: "$1.000",
+            category: "pascuas",
+            description: "Ideal para decoración de tortas de Pascua.",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
+          {
+            id: 32,
+            name: "Topper Cake Happy Easter",
+            img: "toper_cake_2.webp",
+            price: 1000,
+            formattedPrice: "$1.000",
+            category: "pascuas",
+            description: "Ideal para decoración de tortas de Pascua.",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
+          {
+            id: 33,
+            name: "Topper Cake Happy Easter",
+            img: "toper_cake_3.webp",
+            price: 1000,
+            formattedPrice: "$1.000",
+            category: "pascuas",
+            description: "Ideal para decoración de tortas de Pascua.",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
+          {
+            id: 34,
+            name: "Topper Cake Happy Easter",
+            img: "toper_cake_4.webp",
+            price: 1000,
+            formattedPrice: "$1.000",
+            category: "pascuas",
+            description: "Ideal para decoración de tortas de Pascua.",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
+          {
+            id: 35,
+            name: "Topper Cake Happy Easter",
+            img: "toper_cake_4.webp",
+            price: 1000,
+            formattedPrice: "$1.000",
+            category: "pascuas",
+            description: "Ideal para decoración de tortas de Pascua.",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
     ];
 
+    
     
     
 
