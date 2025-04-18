@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", function () {
           {
             id: 35,
             name: "Topper Cake Happy Easter",
-            img: "toper_cake_4.webp",
+            img: "toper_cake_5.webp",
             price: 1000,
             formattedPrice: "$1.000",
             category: "pascuas",
