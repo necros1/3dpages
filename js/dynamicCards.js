@@ -284,6 +284,30 @@ document.addEventListener("DOMContentLoaded", function () {
             featured: false,
             discount: null
           },
+          {
+            id: 36,
+            name: "Caja de almacenamiento en forma de corazón con flor",
+            img: "mother_day_1.webp",
+            price: 1500,
+            formattedPrice: "$1.500",
+            category: "regalo",
+            description: "Delicada cajita de regalo con un encantador efecto tejido, en forma de corazón y decorada con una flor en la parte superior. Es el detalle perfecto para sorprender en el Día de la Madre\n\n📏 Medidas Aprox: 5.4 cm x 5.4 cm x 4 cm\n",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
+          {
+            id: 37,
+            name: "Corazón del Día de la Madre",
+            img: "mother_day_2.webp",
+            price: 5000,
+            formattedPrice: "$5.000",
+            category: "regalo",
+            description: "Un tierno corazón diseñado especialmente para el Día de la Madre, con un mensaje grabado en su interior que dice Te quiero mamá. Un detalle emotivo y significativo para demostrarle todo tu amor en su día. Ideal para acompañar un regalo o como recuerdo lleno de cariño. Es el detalle perfecto para sorprender en el Día de la Madre\n\n📏 Medidas Aprox: 18 cm x 18 cm x 15 cm\n",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          },
     ];
 
     
