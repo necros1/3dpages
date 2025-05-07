@@ -308,6 +308,18 @@ document.addEventListener("DOMContentLoaded", function () {
             featured: false,
             discount: null
           },
+          {
+            id: 38,
+            name: "Reloj Minecraft Creeper",
+            img: "reloj_minecraft_creeper.webp",
+            price: 7500,
+            formattedPrice: "$7.500",
+            category: "gamer",
+            description: "🕹️⛏️ Dale un toque gamer a tu escritorio o habitación con este reloj único inspirado en Minecraft.\n\n🟩 Diseño con el icónico Creeper en el centro\n📏 Dimensiones aproximadas: 23,5 cm x 23,5 cm x 1,4 cm.",
+            stockAvailability: true,
+            featured: false,
+            discount: null
+          }
     ];
 
     
